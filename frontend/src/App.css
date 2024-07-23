@@ -1,0 +1,44 @@
+.App {
+    padding: 20px;
+  }
+  
+  .dropdown, .global-dropdown {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .global-dropdown {
+    position: absolute;
+    z-index: 1000;
+  }
+  
+  .dropdown-item {
+    cursor: pointer;
+    padding: 5px 0;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .step-editor {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .editable-step {
+    border: 1px solid #ddd;
+    padding: 10px;
+    min-height: 50px;
+  }
+  
+  .word-0 { color: red; }
+  .word-1 { color: blue; }
+  .word-2 { color: purple; }
+  .edited-word { color: green; }
+  
+  .editable-step span {
+    cursor: pointer;
+  }
